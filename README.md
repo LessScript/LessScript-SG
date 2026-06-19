@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Platform-Mobile-blue?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/Lua-100%25-green?style=flat-square" alt="Language">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/Keys-120-orange?style=flat-square" alt="Keys">
+  <img src="https://img.shields.io/badge/Dev-XenonE-orange?style=flat-square" alt="Keys">
 </p>
 
 ---
