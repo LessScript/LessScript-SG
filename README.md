@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Самый мощный мобильный чит для Roblox</b><br>
-  <i>Mobile Only • No Mouse/Keyboard • Unicode Fixed</i>
+  <i>Mobile Only • Features Fixed</i>
 </p>
 
 <p align="center">
