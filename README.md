@@ -1,4 +1,4 @@
-# LessScript v0.7.3
+# LessScript v0.7.5
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/LessScript/LessScript-SG/refs/heads/main/LS_Avatar.png" width="128" height="128" alt="LessScript Logo">
@@ -6,14 +6,15 @@
 
 <p align="center">
   <b>Мобильный чит для режима "Arsenal" (Roblox)</b><br>
-  <i>Mobile Only • Features Fixed</i>
+  <i>Mobile Only • v0.7.5 • Arsenal</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-v0.7.3-red?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Version-v0.7.5-red?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Mobile-blue?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/Lua-100%25-green?style=flat-square" alt="Language">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/Keys-120-orange?style=flat-square" alt="Keys">
 </p>
 
 ---
@@ -24,6 +25,18 @@
 
 ---
 
+## 🔐 Key System
+
+С версии v0.7.5 добавлена система входа по ключам. После запуска скрипта появляется окно авторизации, где необходимо ввести валидный ключ формата `LS-XXXXXXX-X-XXX-A`. Без ключа скрипт не загрузится. Всего доступно **120 уникальных ключей**.
+
+| Формат ключа | Пример |
+|-------------|--------|
+| `LS-XXXXXXX-X-XXX-A` | `LS-A1B2C3D-4-E5F-G` |
+
+> Для получения ключа обращайтесь в Telegram: [@LessScriptRB](https://t.me/LessScriptRB)
+
+---
+
 ## 🔥 Возможности
 
 ### 🎯 Combat (Боевые)
@@ -31,6 +44,8 @@
 |---------|----------|
 | **Aimbot** | Автоматическое наведение на голову врага с настраиваемым FOV |
 | **AutoFire** | Автострельба при наведении на цель (только при 100% попадании) |
+| **Prediction Aim** | Упреждение на основе скорости цели с настраиваемой мощностью |
+| **Magic Bullet** | Пуля летит прямо в голову врага игнорируя направление взгляда |
 | **Silent Aim** | Скрытое наведение без визуального движения камеры |
 | **TriggerBot** | Автострельба при наведении перекрестия на врага |
 | **Reach** | Увеличенная дистанция атаки (до 30 studs) |
@@ -66,6 +81,7 @@
 | **ESP** | Подсветка врагов с Boxes, Names, HP, Distance |
 | **Skeleton ESP** | Отрисовка скелета врагов (10 линий костей) |
 | **Chams** | Подсветка моделей врагов красным через стены |
+| **Spectator List** | Отображение количества игроков, которые смотрят на вас |
 | **Third Person** | Режим от третьего лица с настраиваемой дистанцией |
 | **Crosshair** | Кастомное перекрестие с настраиваемым размером |
 | **FOV Circle** | Визуальный круг аимбота |
@@ -101,6 +117,7 @@
 ### Требования
 - Roblox Mobile (iOS/Android)
 - Любой мобильный эксплоит (Arceus X, Hydrogen, Fluxus Mobile, CodeX, Delta и др.)
+- Валидный ключ доступа (формат: LS-XXXXXXX-X-XXX-A)
 
 ### Инструкция
 1. Скачай и установи мобильный эксплоит
@@ -111,30 +128,47 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LessScript/LessScript
 ```
 
 4. Нажми кнопку Execute
-5. Дождись загрузки и тапни по логотипу LS в левом верхнем углу для открытия меню
+5. В появившемся окне введи свой ключ и нажми SUBMIT
+6. Дождись загрузки и тапни по логотипу LS в левом верхнем углу для открытия меню
 
 ---
 
 🎮 Управление
 
 Действие Управление
-Открыть/Закрыть меню Тап по логотипу LS
+Ввод ключа Введи ключ в поле и нажми SUBMIT или убери фокус
+Вставка ключа Тап по кнопке PASTE для вставки из буфера обмена
+Открыть/Закрыть меню Тап по логотипу LS (появляется после ввода ключа)
 Передвинуть меню Тап и перетаскивание за заголовок
 Изменить размер меню Тап и перетаскивание за красный уголок внизу справа
+Передвинуть ватермарку Тап и перетаскивание ватермарки LS
 Включить функцию Тап по переключателю
-Настроить слайдер Тап
+Настроить слайдер Тап и перетаскивание по ползунку
 
 ---
 
 🔄 Changelog
 
-v0.7.3 (Текущая)
+v0.7.5 (Текущая)
+
+· ✅ Добавлена система входа по ключам (120 уникальных ключей)
+· ✅ Окно авторизации с форматом ключа LS-XXXXXXX-X-XXX-A
+· ✅ Валидация ключа с цветовой индикацией (зелёный/красный)
+· ✅ Ватермарка не появляется до успешного ввода ключа
+· ✅ Prediction Aim — упреждение на основе скорости цели
+· ✅ Magic Bullet — пуля из камеры прямо в голову врага
+· ✅ Spectator List — счётчик наблюдающих за вами игроков
+· ✅ Возвращён классический дизайн ватермарки (LS + версия)
+· ✅ Сохранены все функции из предыдущих версий
+
+v0.7.3
 
 · ✅ Исправлена работа Wallbang и Kill All
 · ✅ Пофикшены все боевые функции
 · ✅ Teleport теперь поворачивает лицом к врагу
 · ✅ Оптимизирована стабильность VirtualUser
 · ✅ Переработана система поиска врагов
+· ✅ Кастомная аватарка на водяном знаке
 
 v0.7.2
 
@@ -155,26 +189,22 @@ v0.7.1
 🔗 Ссылки
 
 Ресурс Ссылка
-Telegram @LessScriptRB
-GitHub LessScript-SG
-Raw Script main.lua
+Telegram: @LessScriptRB
+Получение ключа: @LessScriptArsenal_Bot
 
 ---
 
 👤 Автор
 
-XenonE (@criptocashier) — главный разработчик LessScript
+XenonE — главный разработчик LessScript
 
 ---
 
-📄 Лицензия 
+📄 Лицензия
 
 Данный проект распространяется "как есть" без каких-либо гарантий. Все права защищены © 2026 LessScript ®.
 
 ---
 
 <p align="center">
-  <b>Made with ❤️ for the Roblox exploiting community</b><br>
-  <i>Если ты это читаешь — ты легенда</i>
-</p>
-``
+  <b>Made with ❤️ for the Roblox exploiting community</>
