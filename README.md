@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Самый мощный мобильный чит для Roblox</b><br>
+  <b>Мобильный чит для режима "Arsenal" (Roblox)</b><br>
   <i>Mobile Only • Features Fixed</i>
 </p>
 
